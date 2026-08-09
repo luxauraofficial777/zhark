@@ -1,4 +1,6 @@
 # zhark
+<img width="1024" height="1024" alt="fubbu" src="https://github.com/user-attachments/assets/accc77a0-ccc9-48a9-bca7-2f8544ce7027" />
+
 Lux Aura Presents "ZHARK" Automonous Long-Horizon Agent for "Liminal Lore" Agentic Toolchain Harness
 
 # ZHARK
