@@ -9,6 +9,41 @@ Lux Aura Presents "ZHARK" Automonous Long-Horizon Agent for "Liminal Lore" Agent
 
 ZHARK is our domestic equivalent to Sakana Marlin. It runs multi-hour investigation cycles autonomously, forming hypotheses, gathering web evidence, resolving contradictions, mapping causal relationships, and synthesizing executive-ready strategic options. No cloud dependency — runs entirely on local LLMs via Ollama or any OpenAI-compatible endpoint.
 
+# Zhark Release Document
+## Version: v1.1 — August 12, 2026
+
+**Author:** Lux Aura / Antigravity Suite  
+**Target Subsystem:** Autonomous Research & Hypothesis Synthesis Engine  
+
+---
+
+### Executive Summary
+
+**Zhark v1.1** (+0.1 upgrade) consolidates all historical vendored forks under a single canonical engine (`tools/zhark/zhark_orchestrator.py`), merges MAG engine vector integration with thread-safe signal handlers, and supports GammaLanguage v1.11C `?ZHARK` research directives.
+
+---
+
+### Key Technical Upgrades in v1.1
+
+1. **HAZ-01 Tool Fork Consolidation:**
+   - Merged 5 historical version forks into the canonical `tools/zhark/` module (expanded from 736 to 772 lines).
+   - Combined MAG vector engine integration and `token_counter` from canonical with thread-safe signal handling and Gamma frame wrapping from V1.1C.
+   - Installed `importlib` forwarding shims across legacy directories.
+
+2. **`?ZHARK` Directive Routing:**
+   - Wired Gamma v1.11C Opcode `0x16` (`?ZHARK`) for dispatching asynchronous research queries into hive contexts (`#HIVE`).
+
+3. **MAG Memory Persistence:**
+   - Automated commitment of confirmed research hypotheses and evidence graphs to LTESM semantic memory nodes via `!MEM_COMMIT`.
+
+---
+
+### Verification Matrix
+
+- **Import Integrity:** Canonical `zhark` imports cleanly across all legacy paths.
+- **Orchestration Test:** Multi-hypothesis research cycles complete without signal collisions.
+
+
 ---
 
 ## What It Does
